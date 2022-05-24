@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8733975B283D83B900321371 /* ViewcodeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733975A283D83B900321371 /* ViewcodeProtocol.swift */; };
+		8733975D283D846F00321371 /* SampleStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8733975C283D846F00321371 /* SampleStoryboard.storyboard */; };
+		8733975F283D84AD00321371 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8733975E283D84AD00321371 /* SampleViewController.swift */; };
+		87339761283D84ED00321371 /* CleanSampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87339760283D84ED00321371 /* CleanSampleViewController.swift */; };
 		98252C21279200C900199ECC /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98252C20279200C900199ECC /* Repository.swift */; };
 		9826D8BE2788B40800E05400 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9826D8BD2788B40800E05400 /* Assets.xcassets */; };
 		9826D8C12788B40800E05400 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9826D8BF2788B40800E05400 /* LaunchScreen.storyboard */; };
@@ -47,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8733975A283D83B900321371 /* ViewcodeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewcodeProtocol.swift; sourceTree = "<group>"; };
+		8733975C283D846F00321371 /* SampleStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SampleStoryboard.storyboard; sourceTree = "<group>"; };
+		8733975E283D84AD00321371 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		87339760283D84ED00321371 /* CleanSampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanSampleViewController.swift; sourceTree = "<group>"; };
 		98252C20279200C900199ECC /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		9826D8B12788B40600E05400 /* GitHubApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9826D8BD2788B40800E05400 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -98,6 +106,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87339759283D83B900321371 /* ConfigViewcode */ = {
+			isa = PBXGroup;
+			children = (
+				8733975A283D83B900321371 /* ViewcodeProtocol.swift */,
+			);
+			path = ConfigViewcode;
+			sourceTree = "<group>";
+		};
 		9826D8A82788B40600E05400 = {
 			isa = PBXGroup;
 			children = (
@@ -189,10 +205,14 @@
 		9826D8F12788B43F00E05400 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				87339759283D83B900321371 /* ConfigViewcode */,
 				9826D90C2788B89400E05400 /* Components */,
 				9826D8F22788B43F00E05400 /* Settings */,
 				9826D8F42788B43F00E05400 /* Detail */,
 				9826D8F62788B43F00E05400 /* List */,
+				8733975C283D846F00321371 /* SampleStoryboard.storyboard */,
+				8733975E283D84AD00321371 /* SampleViewController.swift */,
+				87339760283D84ED00321371 /* CleanSampleViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -354,6 +374,7 @@
 			files = (
 				9826D8C12788B40800E05400 /* LaunchScreen.storyboard in Resources */,
 				9826D8BE2788B40800E05400 /* Assets.xcassets in Resources */,
+				8733975D283D846F00321371 /* SampleStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,11 +403,14 @@
 				9826D8FE2788B43F00E05400 /* Service.swift in Sources */,
 				9826D8FC2788B43F00E05400 /* UIColor+Extensions.swift in Sources */,
 				9826D8FA2788B43F00E05400 /* UIViewController+Extensions.swift in Sources */,
+				8733975F283D84AD00321371 /* SampleViewController.swift in Sources */,
 				9826D90A2788B48000E05400 /* AppDelegate.swift in Sources */,
 				9826D90B2788B48000E05400 /* SceneDelegate.swift in Sources */,
 				9826D9042788B43F00E05400 /* ListViewController.swift in Sources */,
 				9826D9102788B8EA00E05400 /* SettingsView.swift in Sources */,
 				9826D90E2788B8A900E05400 /* DetailView.swift in Sources */,
+				87339761283D84ED00321371 /* CleanSampleViewController.swift in Sources */,
+				8733975B283D83B900321371 /* ViewcodeProtocol.swift in Sources */,
 				9826D9132788BAC200E05400 /* DebugViewController.swift in Sources */,
 				9826D8FD2788B43F00E05400 /* UITableViewCell+Extensions.swift in Sources */,
 				98252C21279200C900199ECC /* Repository.swift in Sources */,
